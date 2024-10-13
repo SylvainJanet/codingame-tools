@@ -1,0 +1,240 @@
+{
+  "State[numberOfNodes=4, edgesDensity=0.5, oriented=true, uniformWeights=false, negativeWeights=false]": [ {
+    "nodes": [ {
+      "graphIndex": 0
+    }, {
+      "graphIndex": 1
+    }, {
+      "graphIndex": 2
+    }, {
+      "graphIndex": 3
+    } ],
+    "edges": [ {
+      "firstNode": {
+        "graphIndex": 1
+      },
+      "lastNode": {
+        "graphIndex": 0
+      },
+      "weight": 4.0
+    }, {
+      "firstNode": {
+        "graphIndex": 1
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 3.0
+    }, {
+      "firstNode": {
+        "graphIndex": 2
+      },
+      "lastNode": {
+        "graphIndex": 3
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 0
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 3
+      },
+      "lastNode": {
+        "graphIndex": 1
+      },
+      "weight": 1.0
+    } ]
+  } ],
+  "State[numberOfNodes=11, edgesDensity=0.5, oriented=true, uniformWeights=false, negativeWeights=false]": [ {
+    "nodes": [ {
+      "graphIndex": 0
+    }, {
+      "graphIndex": 1
+    }, {
+      "graphIndex": 2
+    }, {
+      "graphIndex": 3
+    }, {
+      "graphIndex": 4
+    }, {
+      "graphIndex": 5
+    }, {
+      "graphIndex": 6
+    }, {
+      "graphIndex": 7
+    }, {
+      "graphIndex": 8
+    }, {
+      "graphIndex": 9
+    }, {
+      "graphIndex": 10
+    } ],
+    "edges": [ {
+      "firstNode": {
+        "graphIndex": 0
+      },
+      "lastNode": {
+        "graphIndex": 0
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 2
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 0
+      },
+      "lastNode": {
+        "graphIndex": 1
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 1
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 3
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 3
+      },
+      "lastNode": {
+        "graphIndex": 4
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 4
+      },
+      "lastNode": {
+        "graphIndex": 5
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 6
+      },
+      "lastNode": {
+        "graphIndex": 5
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 9
+      },
+      "lastNode": {
+        "graphIndex": 10
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 10
+      },
+      "lastNode": {
+        "graphIndex": 9
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 0
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 3.0
+    }, {
+      "firstNode": {
+        "graphIndex": 2
+      },
+      "lastNode": {
+        "graphIndex": 0
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 4
+      },
+      "lastNode": {
+        "graphIndex": 6
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 5
+      },
+      "lastNode": {
+        "graphIndex": 7
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 6
+      },
+      "lastNode": {
+        "graphIndex": 8
+      },
+      "weight": 3.0
+    }, {
+      "firstNode": {
+        "graphIndex": 0
+      },
+      "lastNode": {
+        "graphIndex": 3
+      },
+      "weight": 3.0
+    }, {
+      "firstNode": {
+        "graphIndex": 8
+      },
+      "lastNode": {
+        "graphIndex": 5
+      },
+      "weight": 4.0
+    }, {
+      "firstNode": {
+        "graphIndex": 2
+      },
+      "lastNode": {
+        "graphIndex": 7
+      },
+      "weight": 2.0
+    }, {
+      "firstNode": {
+        "graphIndex": 7
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 1.0
+    }, {
+      "firstNode": {
+        "graphIndex": 9
+      },
+      "lastNode": {
+        "graphIndex": 2
+      },
+      "weight": 3.0
+    } ]
+  } ]
+}

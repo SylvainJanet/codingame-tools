@@ -1,0 +1,9 @@
+{
+  "name" : "ImportedFromFile",
+  "numberOfNodes" : [ 4, 11 ],
+  "edgesDensity" : [ 0.5 ],
+  "oriented" : [ true ],
+  "uniformWeights" : [ false ],
+  "negativeWeights" : [ false ],
+  "numberOfGraphs" : 2
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "FullBenchmarkNoNegativeWeight",
+  "numberOfNodes" : [ 25, 50, 75, 100, 125 ],
+  "edgesDensity" : [ 0.1, 0.25, 0.5, 0.75, 0.9 ],
+  "oriented" : [ true, false ],
+  "uniformWeights" : [ false, true ],
+  "negativeWeights" : [ false ],
+  "numberOfGraphs" : 200
+}

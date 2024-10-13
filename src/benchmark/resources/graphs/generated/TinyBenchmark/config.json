@@ -1,0 +1,9 @@
+{
+  "name" : "TinyBenchmark",
+  "numberOfNodes" : [ 5 ],
+  "edgesDensity" : [ 0.5 ],
+  "oriented" : [ true ],
+  "uniformWeights" : [ false ],
+  "negativeWeights" : [ false ],
+  "numberOfGraphs" : 2
+}

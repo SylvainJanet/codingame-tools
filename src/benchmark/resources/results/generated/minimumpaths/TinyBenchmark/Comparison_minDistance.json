@@ -1,0 +1,120 @@
+[
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "graph.minimumpaths.Dijkstra.DijkstraBenchmarkMinDistance.testAlgorithm_minimumDistance",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/sjanet@france.groupe.intra/.sdkman/candidates/java/21.0.2-tem/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=FR",
+            "-Duser.language=fr",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.2+13-LTS",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "1 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "_0_numberOfNodes" : "5",
+            "_1_edgesDensity" : "0.5",
+            "_2_uniformWeights" : "true",
+            "_3_oriented" : "false",
+            "_4_negativeWeights" : "false"
+        },
+        "primaryMetric" : {
+            "score" : 0.16076714285714286,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.16076714285714286,
+                "50.0" : 0.16076714285714286,
+                "90.0" : 0.16076714285714286,
+                "95.0" : 0.16076714285714286,
+                "99.0" : 0.16076714285714286,
+                "99.9" : 0.16076714285714286,
+                "99.99" : 0.16076714285714286,
+                "99.999" : 0.16076714285714286,
+                "99.9999" : 0.16076714285714286,
+                "100.0" : 0.16076714285714286
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.16076714285714286
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "graph.minimumpaths.FloydWarshall.FloydWarshallBenchmarkMinDistance.testAlgorithm_minimumDistance",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/sjanet@france.groupe.intra/.sdkman/candidates/java/21.0.2-tem/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=FR",
+            "-Duser.language=fr",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.2+13-LTS",
+        "warmupIterations" : 1,
+        "warmupTime" : "1 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "1 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "_0_numberOfNodes" : "5",
+            "_1_edgesDensity" : "0.5",
+            "_2_uniformWeights" : "true",
+            "_3_oriented" : "false",
+            "_4_negativeWeights" : "false"
+        },
+        "primaryMetric" : {
+            "score" : 0.019466423728813558,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.019466423728813558,
+                "50.0" : 0.019466423728813558,
+                "90.0" : 0.019466423728813558,
+                "95.0" : 0.019466423728813558,
+                "99.0" : 0.019466423728813558,
+                "99.9" : 0.019466423728813558,
+                "99.99" : 0.019466423728813558,
+                "99.999" : 0.019466423728813558,
+                "99.9999" : 0.019466423728813558,
+                "100.0" : 0.019466423728813558
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.019466423728813558
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

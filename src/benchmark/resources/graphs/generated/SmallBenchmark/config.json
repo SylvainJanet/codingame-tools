@@ -1,0 +1,9 @@
+{
+  "name" : "SmallBenchmark",
+  "numberOfNodes" : [ 50, 75, 100 ],
+  "edgesDensity" : [ 0.25, 0.5, 0.75 ],
+  "oriented" : [ true ],
+  "uniformWeights" : [ false ],
+  "negativeWeights" : [ false ],
+  "numberOfGraphs" : 200
+}
